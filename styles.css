@@ -73,10 +73,10 @@ body {
 }
 
 .plan {
-  width: 200px;
+  width: 300px;
   padding: 2em;
   border-radius: 1em;
-  margin: 0 0.5em;
+  margin: 0;
 }
 
 .plan--light {
@@ -96,6 +96,10 @@ body {
 .plan--accent {
   color: #fff;
   background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+
+.plan--shorter {
+ margin: 1rem 0;
 }
 
 .plan--accent .button {
@@ -125,6 +129,12 @@ body {
   margin: 2em 0;
   line-height: 1.5;
 }
+
+.plan--dark {
+  background: #4e4e4e;
+  color: white;
+}
+
 
 /* ///////////////
   Teams
