@@ -145,24 +145,73 @@ body {
 /* ///////////////
   Teams
   ////////////// */
+ 
+.team {
+  background-color: lightblue;
+}  
 
 .team-members {
   display: flex;
   flex-wrap: wrap;
 }
 
-.team-member {
-  background: #abc;
+.team-member-top {
+  background: linear-gradient(0deg, #e5e3e8, #fafafa);
+  text-align: right;
+  flex: 1 1 45%;
+  flex-direction: row-reverse;
+  margin: 1em;
+  display: flex;
+  border-radius: 0.5em;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.team-member-bottom {
+  background: #4e4e4e;
   text-align: left;
+  color: white;
   flex: 1 1 45%;
   margin: 1em;
   display: flex;
   border-radius: 0.5em;
   align-items: center;
-  padding: 0.5em 2em 0.5em 0.5em;
+  padding: 0.5em;
 }
 
-.team-member img {
+.team-member-top img {
   width: 10rem;
+  margin-left: 1rem;
   border-radius: 0.25em;
+}
+
+.team-member-bottom img {
+  width: 10rem;
+  margin-right: 1rem;
+  border-radius: 0.25em;
+}
+
+.name-top {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: #00a1ab;
+  margin-bottom: 0;
+}
+
+.position-top {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.name-bottom {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.position-bottom {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0;
 }
